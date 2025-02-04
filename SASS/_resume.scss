@@ -1,0 +1,48 @@
+.resume {
+  width: 90%;
+  margin: 0 auto 6rem auto;
+  &.flex {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    h3 {
+      max-width: 20%;
+      min-width: 20%;
+      text-align: left;
+    }
+    article {
+      display: flex;
+      margin: 0 3rem;
+      padding: 0 1rem;
+
+      flex-direction: column;
+      border-left: 1px solid $textColor;
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 845px) {
+  .resume {
+    width: 100%;
+    &.flex {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      h3 {
+        min-width: none;
+        max-width: none;
+        text-align: center;
+      }
+      article {
+        margin: 0 1.5rem !important;
+        padding: 0 1rem;
+        flex-direction: column;
+        border-left: 0 !important;
+        border-top: 1px solid $textColor;
+      }
+    }
+  }
+}

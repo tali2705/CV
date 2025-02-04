@@ -1,0 +1,53 @@
+.home {
+  width: 90%;
+  margin: 6rem auto 1.5rem auto;
+  background-color: $bgColor;
+  &.flex {
+    display: flex;
+    flex-direction: row;
+    padding: 0 15rem;
+    height: 60vh;
+    align-items: center;
+  }
+  .summary {
+    margin: 1rem 0;
+  }
+}
+
+.my-image {
+  margin-right: 3rem;
+  border-radius: 50%;
+  height: 250px;
+  box-shadow: $textColor 0 0 10px;
+}
+
+@media (max-width: 845px) {
+ 
+  .home {
+    width: 90%;
+    margin: 8rem auto;
+    margin-top: 8rem;
+    // border: 1px solid red;
+    &.flex {
+      display: flex;
+      &.section {
+        padding: 1rem;
+        flex-direction: row;
+      }
+      &.home {
+        height: 75vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 5rem;
+        .pic {
+          padding: 0.5rem;
+        }
+        .my-image {
+          margin: 0;
+          height: 200px;
+        }
+      }
+    }
+  }
+}

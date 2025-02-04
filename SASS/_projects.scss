@@ -1,0 +1,27 @@
+.projects {
+  width: 90%;
+  margin: 0 auto 1.5rem auto;
+  &.flex {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    a {
+      text-decoration: none;
+      color: $textColor;
+      &:hover {
+        color: $btnColor;
+      }
+    }
+  }
+}
+
+@media (max-width: 845px) {
+  .projects {
+    &.flex {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      flex-wrap: wrap;
+    }
+  }
+}
