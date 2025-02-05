@@ -202,6 +202,19 @@ footer .links a:hover {
 .home .summary {
   margin: 1rem 0;
 }
+.home .btn {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 2px solid rgb(41, 0, 66);
+  color: rgb(41, 0, 66);
+  transition: all 0.3s ease-in-out;
+}
+.home .btn:hover {
+  color: #e1e1e1;
+  background-color: rgb(41, 0, 66);
+}
 
 .my-image {
   margin-right: 3rem;

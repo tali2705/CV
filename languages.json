@@ -1,11 +1,12 @@
 {
   "en": {
+    "btnTXT":"Switch to Serbian",
     "greeting": "Hello!",
     "introduction": "I'm Natalija Milosavljević, a web developer.",
     "about": "Web Developer Intern excited at the prospect of applying web and developing web applications in a professional setting. Adaptable worker recognized by peers for my effective problem-solving and communication skills. Looking to apply my understanding of Programming Languages and Database Development on real-life projects.",
     "resume": {
       "header1": "Resume",
-      "header-edu": "Education",
+      "headerEdu": "Education",
       "education": [
         {
           "title": "Front-End Developer course",
@@ -26,7 +27,8 @@
           "summary": ""
         }
       ],
-      "header-skill": "Skills & Languages",
+      "headerSkills": "Skills & Languages",
+      "headerSkill": "Skills",
       "skills": [
         "HTML5, CSS3",
         "Bootstrap, JavaScript, ReactJS",
@@ -43,7 +45,8 @@
         "- 2 years of experience",
         "- less than 1 year of experience"
       ],
-      "soft-skills": [
+      "headerSSkill": "Soft skills",
+      "softSkills": [
         "Communication",
         "Adaptability and flexibility",
         "Teamwork",
@@ -52,10 +55,11 @@
         "Willingness to learn",
         "Problem solving"
       ],
+      "headerLang": "Languages",
       "languages": ["Serbian - Native", "English - Upper-intermediate"]
     },
     "projects": {
-      "header1": "Projects",
+      "header": "Projects",
       "project": [
         {
           "title": "F1 web site",
@@ -81,12 +85,13 @@
     }
   },
   "rs": {
+    "btnTXT":"Promeni na engleski",
     "greeting": "Pozdrav!",
     "introduction": "Moje ime je Natalija Milosavljević, ja sam web developer.",
     "about": "Završila sam Visoku tehničku školu strukovnih studija u Novom sadu kao strukovni inženjer informacionih tehnologija i sistema. Imam osnovna znanja iz tehnologija: HTML, CSS, Javascript, C#, PHP i SQL. Zatim nakon toga kurs za Front-End programera koji organizuje Smart School iz Novog Sada, na kom sam dopunila svoje znanje radeći ReactJS. Veoma sam uporna, kolegijalna i prilagodljiva, mogu da radim sama ali sam takođe i timski igrač. Sve nedostatke u znanju nadoknađujem željom za učenjem.",
     "resume": {
       "header1": "CV",
-      "header-edu": "Edukacija",
+      "headerEdu": "Obrazovanje",
       "education": [
         {
           "title": "Kurs Front-end programera",
@@ -106,7 +111,8 @@
           "timeline": "septembar 2016 - maj 2020"
         }
       ],
-      "header-skill": "Veštine",
+      "headerSkills":"Veštine i jezici",
+      "headerSkill": "Veštine",
       "skills": [
         "HTML5, CSS3",
         "Bootstrap, JavaScript, ReactJS",
@@ -123,7 +129,8 @@
         "- 2 godine iskustva",
         "- manje od jedne godine iskustva"
       ],
-      "soft-skills": [
+      "headerSSkill": "Osobine",
+      "softSkills": [
         "Samostalna",
         "Vredna",
         "Uporna",
@@ -132,10 +139,11 @@
         "Timski igrač",
         "Fleksibilna"
       ],
+      "headerLang": "Jezici",
       "languages": ["Srpski - maternji", "Engleski - srednji/napredni"]
     },
     "projects": {
-      "header1": "Projekti",
+      "header": "Projekti",
       "project": [
         {
           "title": "F1 web site",

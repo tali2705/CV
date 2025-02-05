@@ -12,6 +12,18 @@
   .summary {
     margin: 1rem 0;
   }
+  .btn {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: fit-content;
+    border: 2px solid $btnColor;
+    color: $btnColor;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      color: $bgColor;
+      background-color: $btnColor;
+    }
+  }
 }
 
 .my-image {
@@ -22,7 +34,6 @@
 }
 
 @media (max-width: 845px) {
- 
   .home {
     width: 90%;
     margin: 8rem auto;

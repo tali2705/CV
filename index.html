@@ -29,28 +29,22 @@
         <li><a href="projects.html">Projects</a></li>
       </ul>
     </nav>
+
     <section class="home flex">
       <div class="pic">
         <img src="../images/CVslika.jpg" class="my-image" alt="Logo" />
       </div>
       <div>
         <header>
-          <p>HELLO!</p>
-          <h1>
-            I'm <span>Natalija Milosavljević</span>,<br />
-            a web developer.
-          </h1>
+          <p id="greeting"></p>
+          <h1 id="introduction"></h1>
         </header>
-        <div class="summary">
-          Web Developer Intern excited at the prospect of applying web and
-          developing web applications in a professional setting. Adaptable
-          worker recognized by peers for my effective problem-solving and
-          communication skills. Looking to apply my understanding of Programming
-          Languages and Database Development on real-life projects.
-        </div>
+        <div id="about" class="summary"></div>
+        <div id="languageToggle" class="btn"></div>
       </div>
     </section>
-
+    <!-- <button onclick="changeLanguage('en')">English</button>
+    <button onclick="changeLanguage('rs')">Serbian</button> -->
     <footer>
       <div class="links">
         <div>
@@ -73,5 +67,7 @@
     </footer>
 
     <script type="text/javascript" src="../JS/toggle.js"></script>
+    <script type="text/javascript" src="../JS/data.js"></script>
+    <!-- <script type="module" src="../JS/index.js"></script> -->
   </body>
 </html>
