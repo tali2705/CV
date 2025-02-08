@@ -6,6 +6,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
@@ -23,35 +30,37 @@
       <span class="material-symbols-outlined hamburger" id="hamburger">
         menu
       </span>
-      <ul id="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="projects.html">Projects</a></li>
-      </ul>
+      <ul id="menu"></ul>
     </nav>
-    <h2 id="projectHeader"></h2>
-    <section id="projectCards" class="projects flex"></section>
-    <footer>
-      <div class="links">
-        <div>
-          <span>Phone:</span> <a href="tel:+381691935586">+381691935586</a>
-        </div>
-        <div>
-          <span> Email:</span
-          ><a href="mailto:natalija8140@gmail.com">natalija8140@gmail.com</a>
-        </div>
-        <div>
-          <span>Follow me:</span>
-          <div class="socials">
-            <a href="https://www.linkedin.com/in/natalija-m-5ba157114/"
-              >LinkedIn</a
-            >
-            <a href="https://github.com/tali2705">GitHub</a>
+    <main>
+      <h2 id="projectHeader"></h2>
+      <section id="projectCards" class="projects flex"></section>
+      <footer>
+        <div class="links">
+          <div>
+            <span id="phone"></span>
+            <a href="tel:+381691935586">+381691935586</a>
+          </div>
+          <div>
+            <span id="mail"></span
+            ><a href="mailto:natalija8140@gmail.com">natalija8140@gmail.com</a>
+          </div>
+          <div>
+            <span id="social"></span>
+            <div class="socials">
+              <a href="https://www.linkedin.com/in/natalija-m-5ba157114/"
+                ><i class="fa-lg fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="https://github.com/tali2705"
+                ><i class="fa-lg fa-brands fa-github"></i
+              ></a>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </main>
     <script type="text/javascript" src="../JS/toggle.js"></script>
-    <script type="text/javascript" src="../JS/data.js"></script>
+    <script type="module" src="../JS/headerAndFooter.js"></script>
+    <script type="module" src="../JS/projects.js"></script>
   </body>
 </html>

@@ -17,9 +17,17 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
+  main {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    margin:5rem auto;
+    flex-grow: 1;
+  }
 }
 h2 {
-  margin: 10rem 0;
+  // margin: 10rem 0;
   margin-bottom: 3rem;
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -35,4 +43,16 @@ h4 {
 }
 .bolded {
   font-weight: 600;
+}
+
+@media (max-width: 480px) {
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 1280px) {
 }

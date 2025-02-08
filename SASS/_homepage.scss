@@ -1,64 +1,150 @@
+.btn {
+  position:fixed;
+  top:2.8rem;
+  background-color: $bgColor;
+  left:0;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: fit-content;
+  border-radius: 0.2rem;
+  border-left:0px;
+  box-shadow: rgb(202, 202, 202) 0.1rem 0.1rem 0.5rem;
+  cursor: pointer;
+  color: $btnColor;
+  font-size: 0.7rem;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: $bgColor;
+    background-color: $btnColor;
+  }
+}
 .home {
-  width: 90%;
-  margin: 6rem auto 1.5rem auto;
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
   background-color: $bgColor;
   &.flex {
     display: flex;
     flex-direction: row;
-    padding: 0 15rem;
-    height: 60vh;
     align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
   }
   .summary {
     margin: 1rem 0;
   }
-  .btn {
-    margin-top: 1rem;
-    padding: 0.5rem;
-    width: fit-content;
-    border: 2px solid $btnColor;
-    color: $btnColor;
-    transition: all 0.3s ease-in-out;
-    &:hover {
-      color: $bgColor;
-      background-color: $btnColor;
+}
+.image {
+  margin: 0 3rem 0 0;
+  .my-image {
+    border-radius: 50%;
+    height: 250px;
+    box-shadow: $textColor 0 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    &.flex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      .pic {
+        padding: 0.5rem;
+      }
+      .image {
+        margin: 0 0 2rem 0;
+        .my-image {
+          margin: 0;
+          height: 150px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 480px) {
+  .home {
+    width: 90%;
+    height: 100%;
+    &.flex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      .pic {
+        padding: 0.5rem;
+      }
+      .image {
+        margin: 0 2rem 0 0;
+        .my-image {
+          margin: 0;
+          height: 150px;
+        }
+      }
     }
   }
 }
 
-.my-image {
-  margin-right: 3rem;
-  border-radius: 50%;
-  height: 250px;
-  box-shadow: $textColor 0 0 10px;
-}
-
-@media (max-width: 845px) {
+@media (min-width: 768px) {
   .home {
     width: 90%;
-    margin: 8rem auto;
-    margin-top: 8rem;
-    // border: 1px solid red;
+    margin: 0 auto;
+    height: 75vh;
     &.flex {
       display: flex;
-      &.section {
-        padding: 1rem;
-        flex-direction: row;
+      flex-direction: row;
+      padding: 1rem;
+      .pic {
+        padding: 0.5rem;
       }
-      &.home {
-        height: 75vh;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding: 0 5rem;
-        .pic {
-          padding: 0.5rem;
-        }
-        .my-image {
-          margin: 0;
-          height: 200px;
-        }
+      .my-image {
+        margin: 0;
+        height: 200px;
       }
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .home {
+    width: 80%;
+    margin: 1rem auto;
+    height: 75vh;
+    &.flex {
+      padding: 0 5rem;
+      display: flex;
+      flex-direction: row;
+      .pic {
+        padding: 0.5rem;
+      }
+      .image {
+        margin: 0 2rem 0 0;
+      .my-image {
+        margin: 0;
+        height: 200px;
+      }
+    }
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .home {
+    width: 80%;
+    height: 75vh;
+    margin: 0 auto;
+    background-color: $bgColor;
+    &.flex {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 0 15rem;
     }
   }
 }

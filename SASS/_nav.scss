@@ -9,6 +9,7 @@ nav {
   color: $textColor;
   background-color: $bgColor;
   justify-content: end;
+  
   .hamburger {
     display: none;
   }
@@ -42,6 +43,7 @@ nav {
       }
     }
   }
+  
 }
 
 @media (max-width: 845px) {
@@ -53,6 +55,7 @@ nav {
     }
     .logotype {
       flex: 1;
+      font-size: 1.1rem;
     }
     ul {
       position: fixed;

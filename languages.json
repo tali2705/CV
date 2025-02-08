@@ -1,9 +1,18 @@
 {
   "en": {
-    "btnTXT":"Switch to Serbian",
+    "nav": {
+      "navItem": ["Home", "Resume", "Projects"],
+      "pagePath": ["index.html", "resume.html", "projects.html"]
+    },
+    "btnTXT": "Switch to Serbian",
     "greeting": "Hello!",
     "introduction": "I'm Natalija Milosavljević, a web developer.",
     "about": "Web Developer Intern excited at the prospect of applying web and developing web applications in a professional setting. Adaptable worker recognized by peers for my effective problem-solving and communication skills. Looking to apply my understanding of Programming Languages and Database Development on real-life projects.",
+    "footer":{
+      "phone":"Phone",
+      "mail":"E-mail",
+      "follow":"Follow me"
+    },
     "resume": {
       "header1": "Resume",
       "headerEdu": "Education",
@@ -85,10 +94,19 @@
     }
   },
   "rs": {
-    "btnTXT":"Promeni na engleski",
+    "nav": {
+      "navItem": ["O meni", "CV", "Projekti"],
+      "pagePath": ["index.html", "resume.html", "projects.html"]
+    },
+    "btnTXT": "Promeni na engleski",
     "greeting": "Pozdrav!",
     "introduction": "Moje ime je Natalija Milosavljević, ja sam web developer.",
     "about": "Završila sam Visoku tehničku školu strukovnih studija u Novom sadu kao strukovni inženjer informacionih tehnologija i sistema. Imam osnovna znanja iz tehnologija: HTML, CSS, Javascript, C#, PHP i SQL. Zatim nakon toga kurs za Front-End programera koji organizuje Smart School iz Novog Sada, na kom sam dopunila svoje znanje radeći ReactJS. Veoma sam uporna, kolegijalna i prilagodljiva, mogu da radim sama ali sam takođe i timski igrač. Sve nedostatke u znanju nadoknađujem željom za učenjem.",
+    "footer":{
+      "phone":"Telefon",
+      "mail":"E-mail",
+      "follow":"Zapratite me"
+    },
     "resume": {
       "header1": "CV",
       "headerEdu": "Obrazovanje",
@@ -111,7 +129,7 @@
           "timeline": "septembar 2016 - maj 2020"
         }
       ],
-      "headerSkills":"Veštine i jezici",
+      "headerSkills": "Veštine i jezici",
       "headerSkill": "Veštine",
       "skills": [
         "HTML5, CSS3",
@@ -148,22 +166,22 @@
         {
           "title": "F1 web site",
           "url": "https://github.com/tali2705/formula",
-          "summary": ""
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet quam ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent luctus ut ipsum sit amet iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin dolor nisi, faucibus vitae nisi at, mattis ultrices augue. Aenean eu laoreet urna. Donec ante odio, elementum id dignissim id, mollis ut lectus. Vivamus commodo urna at sodales commodo. "
         },
         {
           "title": "To-do list",
           "url": "https://github.com/tali2705/Todos",
-          "summary": ""
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet quam ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent luctus ut ipsum sit amet iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin dolor nisi, faucibus vitae nisi at, mattis ultrices augue. Aenean eu laoreet urna. Donec ante odio, elementum id dignissim id, mollis ut lectus. Vivamus commodo urna at sodales commodo. "
         },
         {
           "title": "Quiz web app",
           "url": "https://github.com/tali2705/Quiz",
-          "summary": ""
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet quam ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent luctus ut ipsum sit amet iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin dolor nisi, faucibus vitae nisi at, mattis ultrices augue. Aenean eu laoreet urna. Donec ante odio, elementum id dignissim id, mollis ut lectus. Vivamus commodo urna at sodales commodo. "
         },
         {
           "title": "Resume",
           "url": "https://github.com/tali2705/tali2705.github.io",
-          "summary": ""
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet quam ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent luctus ut ipsum sit amet iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin dolor nisi, faucibus vitae nisi at, mattis ultrices augue. Aenean eu laoreet urna. Donec ante odio, elementum id dignissim id, mollis ut lectus. Vivamus commodo urna at sodales commodo. "
         }
       ]
     }
