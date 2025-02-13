@@ -8,10 +8,10 @@
     "greeting": "Hello!",
     "introduction": "I'm Natalija Milosavljević, a web developer.",
     "about": "Web Developer Intern excited at the prospect of applying web and developing web applications in a professional setting. Adaptable worker recognized by peers for my effective problem-solving and communication skills. Looking to apply my understanding of Programming Languages and Database Development on real-life projects.",
-    "footer":{
-      "phone":"Phone",
-      "mail":"E-mail",
-      "follow":"Follow me"
+    "footer": {
+      "phone": "Phone",
+      "mail": "E-mail",
+      "follow": "Follow me"
     },
     "resume": {
       "header1": "Resume",
@@ -73,22 +73,22 @@
         {
           "title": "F1 web site",
           "url": "https://github.com/tali2705/formula",
-          "summary": ""
+          "summary": "The project was done in a team of four people,with me getting role of a Team Lead. The project theme was a Formula 1 website. Technologies used to build the web application were HTML, CSS, and ReactJS."
         },
         {
           "title": "To-do list",
           "url": "https://github.com/tali2705/Todos",
-          "summary": ""
+          "summary": "A smaller standalone project in ReactJS."
         },
         {
           "title": "Quiz web app",
           "url": "https://github.com/tali2705/Quiz",
-          "summary": ""
+          "summary": "A standalone project created in ReactJS for practicing."
         },
         {
           "title": "Resume",
           "url": "https://github.com/tali2705/tali2705.github.io",
-          "summary": ""
+          "summary": "A standalone project created using the technologies: HTML, CSS (SASS), JavaScript. A JSON file with text has also been created for easier readability, future editing, and the potential transition to a React App."
         }
       ]
     }
@@ -102,10 +102,10 @@
     "greeting": "Pozdrav!",
     "introduction": "Moje ime je Natalija Milosavljević, ja sam web developer.",
     "about": "Završila sam Visoku tehničku školu strukovnih studija u Novom sadu kao strukovni inženjer informacionih tehnologija i sistema. Imam osnovna znanja iz tehnologija: HTML, CSS, Javascript, C#, PHP i SQL. Zatim nakon toga kurs za Front-End programera koji organizuje Smart School iz Novog Sada, na kom sam dopunila svoje znanje radeći ReactJS. Veoma sam uporna, kolegijalna i prilagodljiva, mogu da radim sama ali sam takođe i timski igrač. Sve nedostatke u znanju nadoknađujem željom za učenjem.",
-    "footer":{
-      "phone":"Telefon",
-      "mail":"E-mail",
-      "follow":"Zapratite me"
+    "footer": {
+      "phone": "Telefon",
+      "mail": "E-mail",
+      "follow": "Zapratite me"
     },
     "resume": {
       "header1": "CV",
@@ -121,12 +121,13 @@
           "title": "Strukovni inženjer informacionih tehnologija i sistema",
           "school": "Visoka tehnička škola strukovnih studija u Novom Sadu",
           "timeline": "oktobar 2020 - jun 2023",
-          "summary": "Diplomirala sa prosekom 8,69. Tehnologije rađene tokom školovanja obuhvataju: HTML5, CSS3, JavaScript, SQL(MySQL), C#(ASP.NET), PHP, UML. Tema završnog rada bila je 'Kreiranje dinamičkog veb sajta za onlajn zakazivanje I evidenciju pregleda kod izabranog lekara.'"
+          "summary": "Diplomirala sa prosekom 8,69. Tehnologije rađene tokom školovanja obuhvataju: HTML5, CSS3, JavaScript, SQL(MySQL), C#(ASP.NET), PHP, UML. Tema završnog rada bila je 'Kreiranje dinamičkog veb sajta za onlajn zakazivanje i evidenciju pregleda kod izabranog lekara.'"
         },
         {
           "title": "Elektrotehničar multimedije",
           "school": "Elektrotehnička škola 'Mihajlo Pupin'",
-          "timeline": "septembar 2016 - maj 2020"
+          "timeline": "septembar 2016 - maj 2020",
+          "summary": ""
         }
       ],
       "headerSkills": "Veštine i jezici",
@@ -166,22 +167,22 @@
         {
           "title": "F1 web site",
           "url": "https://github.com/tali2705/formula",
-          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet quam ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent luctus ut ipsum sit amet iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin dolor nisi, faucibus vitae nisi at, mattis ultrices augue. Aenean eu laoreet urna. Donec ante odio, elementum id dignissim id, mollis ut lectus. Vivamus commodo urna at sodales commodo. "
+          "summary": "Projekat je rađen u timu od četiri osobe. Moja uloga u timu je bila Team lead. Tema projekta bila je web sajt formule 1. Tehnologije korišćene za izradu web aplikacije su HTML, CSS, ReactJS."
         },
         {
           "title": "To-do list",
           "url": "https://github.com/tali2705/Todos",
-          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet quam ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent luctus ut ipsum sit amet iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin dolor nisi, faucibus vitae nisi at, mattis ultrices augue. Aenean eu laoreet urna. Donec ante odio, elementum id dignissim id, mollis ut lectus. Vivamus commodo urna at sodales commodo. "
+          "summary": "Manji samostalni projekat u ReactJS-u."
         },
         {
           "title": "Quiz web app",
           "url": "https://github.com/tali2705/Quiz",
-          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet quam ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent luctus ut ipsum sit amet iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin dolor nisi, faucibus vitae nisi at, mattis ultrices augue. Aenean eu laoreet urna. Donec ante odio, elementum id dignissim id, mollis ut lectus. Vivamus commodo urna at sodales commodo. "
+          "summary": "Samostalni projekat rađen u ReactJS-u radi vežbanja."
         },
         {
           "title": "Resume",
           "url": "https://github.com/tali2705/tali2705.github.io",
-          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet quam ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent luctus ut ipsum sit amet iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin dolor nisi, faucibus vitae nisi at, mattis ultrices augue. Aenean eu laoreet urna. Donec ante odio, elementum id dignissim id, mollis ut lectus. Vivamus commodo urna at sodales commodo. "
+          "summary": "Samostalni projekat rađen pomoću tehnologija: HTML, CSS(SASS), JavaScript. JSON fajl sa tekstom je takođe napravljen radi lakše preglednosti, naknadnog prepravljanja i potencijalnog prelaska na React App."
         }
       ]
     }
