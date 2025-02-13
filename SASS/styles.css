@@ -111,28 +111,36 @@ nav ul li a:hover {
   nav .hamburger {
     display: inline;
     text-align: end;
+    cursor: pointer;
   }
   nav .logotype {
     flex: 1;
     font-size: 1.1rem;
   }
   nav ul {
+    display: none;
+  }
+  nav ul.active {
+    background-color: #e1e1e1;
     position: fixed;
     top: 3rem;
-    left: 0;
+    right: 0;
     width: 100%;
-    height: 100vh;
-    background-color: #e1e1e1;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translateX(-100%);
-    transition: transform 0.6s ease-in-out;
-    z-index: 5;
   }
-  nav ul li {
+  nav ul.active li {
     border-right: 0 !important;
+    border-bottom: 1px solid #444;
+    width: 50%;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  nav ul.active li:last-child {
+    border-bottom: 0px;
   }
 }
 footer {
@@ -177,7 +185,6 @@ footer .links a:hover {
 @media (max-width: 845px) {
   footer {
     position: relative;
-    z-index: -2;
   }
   footer .links {
     display: flex;
@@ -195,6 +202,7 @@ footer .links a:hover {
     font-size: 1rem;
   }
   footer .links a {
+    cursor: pointer;
     font-size: 1rem;
     margin-bottom: 1rem;
     text-decoration: none;
@@ -357,7 +365,7 @@ footer .links a:hover {
 }
 .resume {
   width: 90%;
-  margin: 0 auto 6rem auto;
+  margin: 0 auto 2rem auto;
 }
 .resume.flex {
   display: flex;

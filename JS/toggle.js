@@ -1,14 +1,14 @@
 function toggleMenu() {
   const menu = document.getElementById("menu");
   const body = document.body;
+  const footer = document.querySelector("footer");
+  menu.classList.toggle("active");
 
-  const menuStatus = menu.style.transform === "translateX(0%)";
-
-  menu.style.transform = menuStatus ? "translateX(-100%)" : "translateX(0%)";
-
-  if (menuStatus) {
-    body.style.overflow = "auto";
-  } else {
+  if (menu.classList.contains("active")) {
     body.style.overflow = "hidden";
+    footer.style.display = "none";
+  } else {
+    body.style.overflow = "auto";
+    footer.style.display = "flex";
   }
 }
