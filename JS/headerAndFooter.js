@@ -33,3 +33,4 @@ function updateNavAndFooterUI(language) {
 }
 
 document.addEventListener("DOMContentLoaded", loadNavAndFootLanguage);
+

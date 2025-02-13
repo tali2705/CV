@@ -100,8 +100,8 @@
     },
     "btnTXT": "Promeni na engleski",
     "greeting": "Pozdrav!",
-    "introduction": "Moje ime je Natalija Milosavljević, ja sam web developer.",
-    "about": "Završila sam Visoku tehničku školu strukovnih studija u Novom sadu kao strukovni inženjer informacionih tehnologija i sistema. Imam osnovna znanja iz tehnologija: HTML, CSS, Javascript, C#, PHP i SQL. Zatim nakon toga kurs za Front-End programera koji organizuje Smart School iz Novog Sada, na kom sam dopunila svoje znanje radeći ReactJS. Veoma sam uporna, kolegijalna i prilagodljiva, mogu da radim sama ali sam takođe i timski igrač. Sve nedostatke u znanju nadoknađujem željom za učenjem.",
+    "introduction": "Moje ime je Natalija Milosavljević, web developer.",
+    "about": "Završila sam Visoku tehničku školu strukovnih studija u Novom sadu kao strukovni inženjer informacionih tehnologija i sistema. Imam osnovna znanja iz tehnologija: HTML, CSS, JavaScript, C#, PHP i SQL. Zatim nakon toga kurs za Front-End programera koji organizuje Smart School iz Novog Sada, na kom sam dopunila svoje znanje radeći ReactJS. Veoma sam uporna, kolegijalna i prilagodljiva, mogu da radim sama ali sam takođe i timski igrač. Sve nedostatke u znanju nadoknađujem željom za učenjem.",
     "footer": {
       "phone": "Telefon",
       "mail": "E-mail",
